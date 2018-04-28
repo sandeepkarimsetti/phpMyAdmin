@@ -14,7 +14,7 @@
  * This is needed for cookie based authentication to encrypt password in
  * cookie. Needs to be 32 chars long.
  */
-$cfg['blowfish_secret'] = ''; /* YOU MUST FILL IN THIS FOR COOKIE AUTH! */
+$cfg['blowfish_secret'] = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJteXNxbGRiIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6ImRlZmF1bHQtdG9rZW4tYnNubWwiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoiZGVmYXVsdCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjNlZmQxMmMzLTRhZTEtMTFlOC04Y2MwLTEyZDY0MWVjNzYxMCIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDpteXNxbGRiOmRlZmF1bHQifQ.WH6NKCG27B81qGCUKxW-jtXXlTnVW72kIoYb5Lms_EvzED27k-iRPuxXXpotBbCE5Gy_YvdDI9PF8rvrA3p3_OCzDrz17lRGgkNDNsonG1qEJwAxIyBb0aZuTanpXVHJSJ4LvSLXBcE0viePYjFtTLwIocZqCY_N4VijV7z82P9KPRgox0sCK1sXF4ocy2ySy--AhxnLYLhKuwTCwVshtemaxXbFi_btchUym9kUOwQciDxwy1g-H0n9AQ5dAHywBzUm-9EbH5YOZK12HoNlLj0eEkh9Neaj1vu2RzfgEsW_fNw9q-VYpeMftGqwLFMZHPgqFPshE7ft4vZSm5FatQ'; /* YOU MUST FILL IN THIS FOR COOKIE AUTH! */
 
 /**
  * Servers configuration
