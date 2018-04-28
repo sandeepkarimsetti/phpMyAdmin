@@ -14,7 +14,7 @@
  * This is needed for cookie based authentication to encrypt password in
  * cookie. Needs to be 32 chars long.
  */
-$cfg['blowfish_secret'] = 'anyRandomStringanyRandomStringanyRandomString'; /* YOU MUST FILL IN THIS FOR COOKIE AUTH! */
+$cfg['blowfish_secret'] = ''; /* YOU MUST FILL IN THIS FOR COOKIE AUTH! */
 
 /**
  * Servers configuration
@@ -145,7 +145,7 @@ $cfg['SaveDir'] = '';
  * Available options
  * ('ask' | 'always' | 'never')
  * default = 'ask'
- */false
+ */
 //$cfg['SendErrorReports'] = 'always';
 
 /**
